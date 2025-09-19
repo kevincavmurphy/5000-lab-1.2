@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This page demonstrates key Quarto/Markdown features requested for the assignment, including headings, two-column layout, lists, tables, math, images, video, a Mermaid diagram, a block quote, a footnote, and a citation (e.g., see Vaswani et al. (2017); also Athey and Imbens (2019)). Inline math example: the pythagorean theorem \\(a^2 + b^2 = c^2\\) is a critical function in geometry.1\n\n“Everything can be taken from a man but one thing: the last of the human freedoms — to choose one’s attitude in any given set of circumstances, to choose one’s own way.” — Viktor Frankl\n\n\n\n\nEstablish a clear project narrative and scope\nPresent core artifacts (tables, figures, diagrams)\nDemonstrate technical writing conventions and citations\nProvide professional visuals and media embeds\n\n\n\n\nStructured content with headers\n\nTwo-column formatted text\n\nBullet lists for clarity\n\nA markdown table with metrics\n\nInline and display LaTeX equations\n\nFootnote references2\n\nQuotations and citations\n\nTwo images (side-by-side)\n\nOne embedded video\n\nA Mermaid diagram\n\n\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.\n\nStakeholder alignment\n\nMilestone planning\n\nRisk identification\n\nKPI definition\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus. Praesent blandit laoreet nibh, fermentum ultrices mi efficitur vitae.\n\nDefine scope and success metrics\n\nCollect and clean data\n\nBuild baseline model\n\nIterate, validate, and deploy\n\n\n\n\n\n\n\n\n\n\nMetric\nQ1\nQ2\nQ3\nQ4\n\n\n\n\nRevenue (Dollars)\n12.4\n14.1\n15.0\n16.8\n\n\nGross Margin (Percentage)\n48.2\n49.0\n50.1\n51.3\n\n\nCAC (Dollars)\n120\n118\n112\n109\n\n\nLTV/CAC (×)\n3.2\n3.4\n3.6\n3.9\n\n\n\nDisplay math example (linear regression model with OLS estimators):\n\\[\ny_i = \\beta_0 + \\beta_1 x_{i1} + \\beta_2 x_{i2} + \\cdots + \\beta_k x_{ik} + u_i,\n\\quad \\text{where} \\quad\n\\hat{\\boldsymbol{\\beta}} = (X'X)^{-1} X'y\n\\]\n\n\n\n\n\n\n\n\n\nField of flowers in Patagonia\n\n\n\n\n\n\n\nGlacier in Patagonia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Square] --&gt; B(Not a Square)\n  B --&gt; C{Diamond}\n  C --&gt; D[To be]\n  C --&gt; E[or not to be]\n\n\n A Mermaid diagram \n\n\n\n\n\n\nThis section demonstrates an in-text citation to my .bib file (e.g., Vaswani et al. (2017); Athey and Imbens (2019))."
+  },
+  {
+    "objectID": "index.html#objectives",
+    "href": "index.html#objectives",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Establish a clear project narrative and scope\nPresent core artifacts (tables, figures, diagrams)\nDemonstrate technical writing conventions and citations\nProvide professional visuals and media embeds\n\n\n\n\nStructured content with headers\n\nTwo-column formatted text\n\nBullet lists for clarity\n\nA markdown table with metrics\n\nInline and display LaTeX equations\n\nFootnote references2\n\nQuotations and citations\n\nTwo images (side-by-side)\n\nOne embedded video\n\nA Mermaid diagram"
+  },
+  {
+    "objectID": "index.html#two-column-overview",
+    "href": "index.html#two-column-overview",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.\n\nStakeholder alignment\n\nMilestone planning\n\nRisk identification\n\nKPI definition\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus. Praesent blandit laoreet nibh, fermentum ultrices mi efficitur vitae.\n\nDefine scope and success metrics\n\nCollect and clean data\n\nBuild baseline model\n\nIterate, validate, and deploy"
+  },
+  {
+    "objectID": "index.html#illustrative-table",
+    "href": "index.html#illustrative-table",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Metric\nQ1\nQ2\nQ3\nQ4\n\n\n\n\nRevenue (Dollars)\n12.4\n14.1\n15.0\n16.8\n\n\nGross Margin (Percentage)\n48.2\n49.0\n50.1\n51.3\n\n\nCAC (Dollars)\n120\n118\n112\n109\n\n\nLTV/CAC (×)\n3.2\n3.4\n3.6\n3.9\n\n\n\nDisplay math example (linear regression model with OLS estimators):\n\\[\ny_i = \\beta_0 + \\beta_1 x_{i1} + \\beta_2 x_{i2} + \\cdots + \\beta_k x_{ik} + u_i,\n\\quad \\text{where} \\quad\n\\hat{\\boldsymbol{\\beta}} = (X'X)^{-1} X'y\n\\]"
+  },
+  {
+    "objectID": "index.html#images-side-by-side",
+    "href": "index.html#images-side-by-side",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Field of flowers in Patagonia\n\n\n\n\n\n\n\nGlacier in Patagonia"
+  },
+  {
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "flowchart LR\n  A[Square] --&gt; B(Not a Square)\n  B --&gt; C{Diamond}\n  C --&gt; D[To be]\n  C --&gt; E[or not to be]\n\n\n A Mermaid diagram"
+  },
+  {
+    "objectID": "index.html#references-notes",
+    "href": "index.html#references-notes",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This section demonstrates an in-text citation to my .bib file (e.g., Vaswani et al. (2017); Athey and Imbens (2019))."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis page is constructed to satisfy specific formatting requirements: headers, two columns, lists, table, math (inline and display), TOC (enabled in YAML), footnote, quote, images, video, Mermaid diagram, and at least one .bib citation.↩︎\nThis page is constructed to satisfy specific formatting requirements: headers, two columns, lists, table, math (inline and display), TOC (enabled in YAML), footnote, quote, images, video, Mermaid diagram, and at least one .bib citation.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#overview",
+    "href": "slides/slides.html#overview",
+    "title": "Project Deck",
+    "section": "Overview",
+    "text": "Overview\nWelcome to the demo deck built with Quarto + reveal.js inside a Jupyter notebook. We outline the typical data science lifecycle and include images, citations, and executable code.\nAs emphasized in foundational work (see Vaswani et al. (2017)), clear problem framing and measurement are essential."
+  },
+  {
+    "objectID": "slides/slides.html#visuals",
+    "href": "slides/slides.html#visuals",
+    "title": "Project Deck",
+    "section": "Visuals",
+    "text": "Visuals\n\n\n\n \n\n\n\n\n\nCode\n\n# Simple line plot demo\nimport matplotlib.pyplot as plt\n\nx = [0, 1, 2, 3, 4, 5]\ny = [0, 1, 4, 9, 16, 25]\n\nplt.figure(figsize=(6,4))\nplt.plot(x, y, marker='o', linestyle='-')\nplt.title(\"Example Plot\")\nplt.xlabel(\"x\")\nplt.ylabel(\"y\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#data-science-process",
+    "href": "slides/slides.html#data-science-process",
+    "title": "Project Deck",
+    "section": "Data Science Process",
+    "text": "Data Science Process\n\n\nCode\nflowchart LR\n  A[Define Problem] --&gt; B[Acquire Data]\n  B --&gt; C[EDA]\n  C --&gt; D[Prep/Features]\n  D --&gt; E[Model]\n  E --&gt; F{Good?}\n  F -- Yes --&gt; G[Deploy]\n  F -- No --&gt; C\n  G --&gt; H[Monitor]\n  H --&gt; C\n\n\n\n\n\nflowchart LR\n  A[Define Problem] --&gt; B[Acquire Data]\n  B --&gt; C[EDA]\n  C --&gt; D[Prep/Features]\n  D --&gt; E[Model]\n  E --&gt; F{Good?}\n  F -- Yes --&gt; G[Deploy]\n  F -- No --&gt; C\n  G --&gt; H[Monitor]\n  H --&gt; C\n\n\n\n\n\n\n\n\n\n\nVaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. “Attention Is All You Need.” Advances in Neural Information Processing Systems 30."
+  }
+]

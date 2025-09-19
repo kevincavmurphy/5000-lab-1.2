@@ -1,0 +1,112 @@
+---
+title: "simple_quarto_website"
+toc: true
+number-sections: true
+bibliography: reference.bib
+format:
+  html:
+    theme: cosmo
+---
+
+# Executive Summary
+
+This page demonstrates key Quarto/Markdown features requested for the assignment, including headings, two-column layout, lists, tables, math, images, video, a Mermaid diagram, a block quote, a footnote, and a citation (e.g., see @vaswani2017attention; also @athey2019machine). Inline math example: the pythagorean theorem $a^2 + b^2 = c^2$ is a critical function in geometry.[^1]
+
+> “Everything can be taken from a man but one thing: the last of the human freedoms — to choose one’s attitude in any given set of circumstances, to choose one’s own way.” — Viktor Frankl
+
+## Objectives
+
+- Establish a clear project narrative and scope
+- Present core artifacts (tables, figures, diagrams)
+- Demonstrate technical writing conventions and citations
+- Provide professional visuals and media embeds
+
+### Key Deliverables
+
+1. Structured content with headers  
+2. Two-column formatted text  
+3. Bullet lists for clarity  
+4. A markdown table with metrics  
+5. Inline and display LaTeX equations  
+6. Footnote references[^1]  
+7. Quotations and citations  
+8. Two images (side-by-side)  
+9. One embedded video  
+10. A Mermaid diagram  
+
+## Two-Column Overview
+
+::: columns
+::: column
+### Background
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.
+
+- Stakeholder alignment  
+- Milestone planning  
+- Risk identification  
+- KPI definition
+:::
+
+::: column
+### Approach
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus. Praesent blandit laoreet nibh, fermentum ultrices mi efficitur vitae.
+
+1. Define scope and success metrics  
+2. Collect and clean data  
+3. Build baseline model  
+4. Iterate, validate, and deploy
+:::
+:::
+
+## Illustrative Table
+
+| Metric              | Q1      | Q2      | Q3      | Q4      |
+|:--------------------|:--------|:--------|:--------|:--------|
+| Revenue (Dollars)        | 12.4    | 14.1    | 15.0    | 16.8    |
+| Gross Margin (Percentage)    | 48.2    | 49.0    | 50.1    | 51.3    |
+| CAC (Dollars)             | 120     | 118     | 112     | 109     |
+| LTV/CAC (×)         | 3.2     | 3.4     | 3.6     | 3.9     |
+
+Display math example (linear regression model with OLS estimators):
+
+$$
+y_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \cdots + \beta_k x_{ik} + u_i,
+\quad \text{where} \quad
+\hat{\boldsymbol{\beta}} = (X'X)^{-1} X'y
+$$
+
+
+## Images (Side-by-Side)
+
+::: {layout-ncol=2}
+![Field of flowers in Patagonia](images/West_in_Field_copy.jpg){fig-cap="Field of flowers in Patagonia"}
+
+![Glacier in Patagonia](images/Glacier_Gray_Far_copy.jpg){fig-cap="Glacier in Patagonia"}
+:::
+
+## Embedded Video (Nature Documentary)
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=dRmdeu-Y-6YTAGmC"
+          title="Nature Documentary"
+          allowfullscreen
+          style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+## Mermaid Diagram
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Square] --> B(Not a Square)
+  B --> C{Diamond}
+  C --> D[To be]
+  C --> E[or not to be]
+```
+
+## References & Notes
+
+This section demonstrates an in-text citation to my `.bib` file (e.g., @vaswani2017attention; @athey2019machine).
+
+[^1]: This page is constructed to satisfy specific formatting requirements: headers, two columns, lists, table, math (inline and display), TOC (enabled in YAML), footnote, quote, images, video, Mermaid diagram, and at least one `.bib` citation.
